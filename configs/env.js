@@ -1,0 +1,9 @@
+const APP_STORAGE_PATH = process.env.APP_STORAGE_PATH ?? "storage";
+const APP_UPLOAD_PATH = `${APP_STORAGE_PATH}/upload`;
+const APP_SELF_STORAGE_PATH = `${APP_STORAGE_PATH}`;
+
+module.exports = {
+  APP_STORAGE_PATH,
+  APP_UPLOAD_PATH,
+  APP_SELF_STORAGE_PATH,
+};
